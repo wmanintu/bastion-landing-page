@@ -1,10 +1,10 @@
 <template>
-    <section>
-        <div class="myContainer">
-            <div class="columns main-bg">
-                <div class="column is-three-fifths">
-                    <h1>Better Than Personal Training.</h1>
-                    <h2 class="py-5">
+    <section class="main-bg">
+        <div class="my-container">
+            <div class="columns is-align-items-center">
+                <div class="column is-three-fifths ml-5">
+                    <h1 class="has-text-black">Better Than Personal Training.</h1>
+                    <h2 class="py-5 is-size-2 has-text-black">
                         Match with a personalized coach. <br />
                         Accelerate your progress. <br />
                         Become your best self.
@@ -15,31 +15,15 @@
                         </button>
                         <button class="button is-medium is-relative">
                             Learn More
-                            <img
-                                src="../assets/right-arrow.svg"
-                                alt="Right arrow icon"
-                            />
+                            <img src="../assets/arrow-up-right.svg" alt="Right arrow icon" />
                         </button>
                     </div>
                 </div>
                 <div class="column is-relative">
-                    <img
-                        class="dots-narrow"
-                        src="../assets/hero-dots-narrow.svg"
-                        alt="Decorative dots image"
-                    />
-                    <img
-                        class="dots-wide"
-                        src="../assets/hero-dots-wide.svg"
-                        alt="Decorative dots image"
-                    />
+                    <img class="dots-narrow" src="../assets/hero-dots-narrow.svg" alt="Decorative dots image" />
+                    <img class="dots-wide" src="../assets/hero-dots-wide.svg" alt="Decorative dots image" />
                     <div class="video-wrapper">
-                        <video
-                            src="../assets/hero.mp4"
-                            autoplay
-                            loop
-                            muted
-                        ></video>
+                        <video src="../assets/hero.mp4" autoplay loop muted></video>
                     </div>
                 </div>
             </div>
@@ -49,26 +33,22 @@
 
 <style scoped>
 section {
-    padding-top: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
 }
 
 h1 {
-    color: #000;
     font-family: var(--font-primary);
     font-size: 5rem;
-    font-style: normal;
     font-weight: 700;
-    line-height: 120%; /* 6rem */
+    line-height: 120%;
+    /* 6rem */
     letter-spacing: 0.1875rem;
 }
 
 h2 {
-    color: #000;
     font-family: var(--font-secondary);
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%; /* 3.5rem */
+    line-height: 140%;
     letter-spacing: 0.1875rem;
 }
 
@@ -99,6 +79,8 @@ button img {
     overflow: hidden;
     width: 25.6875rem;
     height: 38.5625rem;
+    aspect-ratio: 25.6875 / 38.5625;
+    /* width: 22rem; */
     border-radius: 8px;
 }
 
@@ -117,12 +99,12 @@ video {
 }
 
 .dots-narrow {
-    right: 0;
+    right: 1rem;
     top: -2.5rem;
 }
 
 .dots-wide {
     left: -11rem;
-    bottom: -0.5rem;
+    bottom: -2.5rem;
 }
 </style>

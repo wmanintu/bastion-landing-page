@@ -1,11 +1,8 @@
 <template>
     <div class="main-bg">
-        <div class="myContainer">
-            <nav
-                class="is-flex is-justify-content-space-between is-align-items-center"
-                role="navigation"
-                aria-label="main navigation"
-            >
+        <div class="my-container">
+            <nav class="is-flex is-justify-content-space-between is-align-items-center" role="navigation"
+                aria-label="main navigation">
                 <div class="is-flex nav-links">
                     <a href="#">Home</a>
                     <a href="#">Coaches</a>
@@ -26,7 +23,7 @@
 
 <style scoped>
 nav {
-    padding: 1rem 2rem;
+    padding: 1rem 0;
     color: var(--font-black-color);
     text-align: center;
     font-size: 1.25rem;
