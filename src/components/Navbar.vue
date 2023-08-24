@@ -1,5 +1,5 @@
 <template>
-    <div class="main-bg">
+    <div class="light-bg">
         <div class="my-container">
             <nav class="is-flex is-justify-content-space-between is-align-items-center" role="navigation"
                 aria-label="main navigation">

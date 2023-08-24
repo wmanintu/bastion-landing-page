@@ -8,7 +8,7 @@
                     </p>
                 </div>
                 <div class="column">
-                    <img src="../assets/michigan-daily.svg" alt="The Michigan Daily icon" />
+                    <img src="../assets/logo-michigan-daily.svg" alt="The Michigan Daily icon" />
                 </div>
             </div>
         </div>

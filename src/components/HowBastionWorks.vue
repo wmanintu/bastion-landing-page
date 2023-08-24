@@ -1,5 +1,5 @@
 <template>
-    <section class="py-6 main-bg">
+    <section class="py-6 light-bg">
         <div class="my-container is-relative">
             <img class="dots-top" src="../assets/dots-2-rows.svg" alt="Decorative dots image" />
             <h2 class="is-size-1 has-text-weight-bold text has-text-centered has-text-black pb-6">How Bastion Works</h2>

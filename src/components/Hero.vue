@@ -1,5 +1,5 @@
 <template>
-    <section class="main-bg">
+    <section class="light-bg">
         <div class="my-container">
             <div class="columns is-align-items-center">
                 <div class="column is-three-fifths ml-5">
@@ -20,8 +20,8 @@
                     </div>
                 </div>
                 <div class="column is-relative">
-                    <img class="dots-narrow" src="../assets/hero-dots-narrow.svg" alt="Decorative dots image" />
-                    <img class="dots-wide" src="../assets/hero-dots-wide.svg" alt="Decorative dots image" />
+                    <img class="dots-narrow" src="../assets/dots-narrow.svg" alt="Decorative dots image" />
+                    <img class="dots-wide" src="../assets/dots-wide.svg" alt="Decorative dots image" />
                     <div class="video-wrapper">
                         <video src="../assets/hero.mp4" autoplay loop muted></video>
                     </div>
