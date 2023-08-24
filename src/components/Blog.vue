@@ -57,6 +57,11 @@
 </template>
 
 <style scoped>
+.my-container {
+    padding-top: 8rem;
+    padding-bottom: 16rem;
+}
+
 h2 {
     margin-bottom: 4.2rem;
 }
@@ -77,11 +82,6 @@ h2 {
 .small-card h3 {
     padding-bottom: 2rem;
     line-height: 120%;
-}
-
-.my-container {
-    padding-top: 8rem;
-    padding-bottom: 10rem;
 }
 
 .big-card, .small-card {

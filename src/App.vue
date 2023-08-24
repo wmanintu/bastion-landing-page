@@ -7,6 +7,7 @@ import Coaches from "./components/Coaches.vue";
 import WhyBastion from "./components/WhyBastion.vue";
 import Clients from "./components/Clients.vue";
 import Blog from "./components/Blog.vue";
+import Newsletter from "./components/Newsletter.vue";
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import Blog from "./components/Blog.vue";
     <WhyBastion />
     <Clients />
     <Blog />
+    <Newsletter />
 </template>
 
 <style scoped></style>
