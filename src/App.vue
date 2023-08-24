@@ -6,6 +6,7 @@ import HowBastionWorks from "./components/HowBastionWorks.vue";
 import Coaches from "./components/Coaches.vue";
 import WhyBastion from "./components/WhyBastion.vue";
 import Clients from "./components/Clients.vue";
+import Blog from "./components/Blog.vue";
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import Clients from "./components/Clients.vue";
     <Coaches />
     <WhyBastion />
     <Clients />
+    <Blog />
 </template>
 
 <style scoped></style>
