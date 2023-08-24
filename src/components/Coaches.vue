@@ -124,8 +124,8 @@ button img {
 }
 
 .coach-card img {
+    aspect-ratio: 1/1;
     width: 16.875rem;
-    height: 16.875rem;
 }
 
 .description {
