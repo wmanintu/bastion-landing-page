@@ -6,12 +6,12 @@
     --font-secondary: "Fira Sans", sans-serif;
     --font-tertiary: "Inter", sans-serif;
 
-
     --font-black-color: #000000;
     --font-white-color: #ffffff;
-    --font-gray-color: #B2B2B2;
+    --font-gray-color: #b2b2b2;
+    --font-gray2-color: #c4c4c4;
 
-    --main-bg-color: #f6f6f6;
+    --light-bg-color: #f6f6f6;
     --dark-bg-color: #272727;
     --aqua-color: #00f0ff;
 
@@ -35,8 +35,8 @@ a:hover {
     color: var(--link-hover-color);
 }
 
-.main-bg {
-    background-color: var(--main-bg-color);
+.light-bg {
+    background-color: var(--light-bg-color);
 }
 
 .dark-bg {
